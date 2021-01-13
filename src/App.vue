@@ -1,30 +1,108 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/" id="home">
+      <avatar fullname="John Lawrence Figuerres" :size="50" color="#205072"></avatar>
+      <span id="name-container">John Lawrence<span>Figuerres</span> </span>
+    </router-link>
+    <div id="nav-menu">
+         <router-link to="/experience">Work Experience</router-link>
+         <router-link to="/aboutx">Skills</router-link>
+         <router-link to="/about2">Application</router-link>
+         <router-link to="/about3">About</router-link>
+    </div>
   </div>
-  <router-view/>
+  <router-view id="content-container"/>
+  <Footer />
 </template>
 
+<script>
+import Avatar from 'vue-avatar-component'
+import Footer from '@/components/Footer.vue'
+export default {
+  props: {
+  },
+  components: {
+    Avatar,
+    Footer
+  }
+}
+</script>
 <style lang="less">
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ececec;
+  overflow-x: hidden;
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-container {
+  flex: 1;
+  width: 100%;
 }
 
 #nav {
-  padding: 30px;
-
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    justify-self: end;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+    font-size: 1.3rem;
+    color: #2c3e50;
+    text-decoration: none;
+   
+  }
+   a:hover {
+    font-weight: bolder;
+  }
+
+}
+
+
+#home {
+  display: flex;
+  align-items: center;
+  #name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0.5rem;
   }
 }
+
+#nav-menu{
+  display: flex;
+  align-items: center;
+  height: 100%;
+ 
+  a {
+    margin-left: 1rem;
+     padding: 5px 0.5rem;
+     &.router-link-exact-active {
+      color: #2fcc71;
+      border-bottom: 5px solid #2fcc71;
+      font-weight: bolder;
+    }
+    
+  }
+}
+
+
 </style>
