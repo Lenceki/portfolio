@@ -6,13 +6,14 @@
     </router-link>
     <div id="nav-menu">
          <router-link to="/experience">Work Experience</router-link>
-         <router-link to="/aboutx">Skills</router-link>
-         <router-link to="/about2">Application</router-link>
-         <router-link to="/about3">About</router-link>
-    </div>
+    
+         <router-link to="/app">Application</router-link>
+    
+    </div>  
   </div>
   <router-view id="content-container"/>
   <Footer />
+  <div id="modals"></div>
 </template>
 
 <script>
@@ -36,6 +37,10 @@ body {
   overflow-x: hidden;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -96,8 +101,8 @@ body {
     margin-left: 1rem;
      padding: 5px 0.5rem;
      &.router-link-exact-active {
-      color: #2fcc71;
-      border-bottom: 5px solid #2fcc71;
+      color: #205072;
+      border-bottom: 5px solid #205072;
       font-weight: bolder;
     }
     
