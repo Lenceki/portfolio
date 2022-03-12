@@ -172,8 +172,8 @@ const mockData = [
        
       tools: [
         new ToolsModel({
-          imgSrc: android,
-          name: "Android"
+          imgSrc: xcode,
+          name: "Xcode"
         }),
       
         new ToolsModel({
@@ -199,10 +199,13 @@ const mockData = [
        
       tools: [
         new ToolsModel({
-          imgSrc: android,
-          name: "Android"
+          imgSrc: vue,
+          name: "VueJS"
         }),
-      
+        new ToolsModel({
+          imgSrc: h5,
+          name: "Html"
+        }),
         new ToolsModel({
           imgSrc: git,
           name: "Git"
@@ -227,10 +230,17 @@ const mockData = [
        
       tools: [
         new ToolsModel({
+          imgSrc: flutter,
+          name: "Flutter"
+        }),
+        new ToolsModel({
           imgSrc: android,
           name: "Android"
         }),
-      
+        new ToolsModel({
+          imgSrc: xcode,
+          name: "Xcode"
+        }),
         new ToolsModel({
           imgSrc: git,
           name: "Git"
@@ -431,13 +441,13 @@ const mockData = [
   ),
   new ApplicationModel(
     {
-        name:"iUp Note",
+        name:"Fill It! ",
         logo: fillit,
         company: "Smart and Sense Infotech Inc.",
         desc: `Fill It! is a unique fast-paced color word game that will get you addicted for hours. Test your skills and TAP AS MANY CORRECT COLOR WORDS UNTIL THE WATER RUNS OUT!`,
-        tasks: `• Implement camera filter
-        • Add painting features
-        • Add in app purchase
+        tasks: `• Propose this game
+        • Overall development
+        • implement in app purchase
         • Bug fixing
         `,
         links: [
@@ -450,7 +460,10 @@ const mockData = [
         video: null,
         status: "Production",
       tools: [
-       
+          new ToolsModel({
+            imgSrc: unity3d,
+            name: "Unity3d"
+          }),
           new ToolsModel({
             imgSrc: xcode,
             name: "Xcode"

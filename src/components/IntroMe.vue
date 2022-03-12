@@ -64,17 +64,17 @@ export default {
           name: "Model View Presenter"
         },
         {
-          initial:"MVP",
-          name: "Model View Presenter"
-        },
-        
-        {
           initial:"MVC",
           name: "Model View Controller"
         },
         {
           initial:"R",
           name: "Redux"
+        },
+        
+        {
+          initial:"Bloc",
+          name: "Business logic components"
         }
         
       ],
