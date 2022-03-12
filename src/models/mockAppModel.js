@@ -130,7 +130,7 @@ const mockData = [
         desc: `Employees will have to complete on a daily basis in order to determine if they are safe to report to the office. The health declaration form is digitally generated in compliance with DTI / DOLE memo on infection control.`,
         tasks: `• Do code architecture.
         • Create API request framework with security.
-        • Help Junior developer if needed.
+        • Help Junior developers if needed.
         `,
         images: [clearme1, clearme2, clearme3],
         videos: null,
@@ -163,7 +163,7 @@ const mockData = [
         logo: bnham,
         company: "Manulife Business Processing Services",
         desc: `Registration of receiving Christmas basket on Manulife Business Processing Services`,
-        tasks: `• Refractoring event information
+        tasks: `• Refactoring event information
         • Update Local database
         `,
         images: [bnham1, bnham2, bnham3],
@@ -218,8 +218,8 @@ const mockData = [
         desc: `Customer Application System for auto loan and financing by Toyota Financial Services (TFS) Phil.`,
         tasks: `• Do code architecture.
         • Create API request framework with security.
-        • Do caching on api response  with expirtation
-        • Do deployment on test environtment
+        • Do caching on api response  with expiration
+        • Do deployment on test environment 
         `,
         images: [tfscas1, tfscas2, tfscas3],
         videos: null,
@@ -467,7 +467,7 @@ const mockData = [
         desc: `Zipiskip is a socially conscious mobile ordering platform created to help small businesses while providing customers with the best on-demand ordering experience.`,
         tasks: `• Implement printer receipt
         • Bug fixing
-        • Implement alerts and notifcation
+        • Implement alerts and notification
         • Optimize dirty codes
         `,
         images: [zipiskip2],

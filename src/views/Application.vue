@@ -1,5 +1,6 @@
 <template>
   <div class="application-container">
+  
     <div class="app-item"    v-for="(item, index) in dataSource" :key="index"
     @click="showModal(item)"
     > 
@@ -94,7 +95,6 @@ export default {
 <style lang="less" scoped>
 .application-container {
   display: flex;
-  padding: 2rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }

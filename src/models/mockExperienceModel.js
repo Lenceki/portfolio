@@ -28,9 +28,9 @@ const mockData = [
       company: "Petnet Inc.",
       story: `• Develop new feature for iOS and android
       • Do code review
-      • Give technical advice on stake holder if is doable or not
-      • Help on other developer on fixing bugs
-      • Do app deployment on different environtment
+      • Give technical advice on stakeholders if is doable or not
+      • Help other developers on fixing bugs
+      • Do app deployment on different environment
       • Manage code repository
       `,
       address: "East Offices Bldg., 114 Aguirre St., Legaspi Village, Makati City Philippines",
@@ -65,11 +65,11 @@ const mockData = [
       position:"Mobile Application Engineer ",
       level: "Level 4(Senior)",
       company: "Manulife Business Processing Services",
-      story: `• Propose solution on company problem
+      story: `• Propose a solution to a company problem
       • Propose Flutter to lessen the development effort on mobile development
-      • Do brownbags on mobile development and handling repository
-      • Participate in tech activities like hackaton on the company
-      • Make enterprise appstore to distribute enterprise application that make of the team
+      • Do brown bags on mobile development and handling repository
+      • Participate in tech activities like hackathons on the company
+      • Make enterprise AppStore to distribute enterprise applications created by the team
       • Do web development if needed
       `,
       address: "U.P. Ayala Land TechnoHub Diliman, Quezon City, Philippines",
@@ -111,16 +111,17 @@ const mockData = [
       position:"Lead iOS Developer",
       company: "Mynt (Globe Fintech Innovation Inc.)",
       level: "Senior",
-      story: `• Develop new feature for gcash iOS
+      story: `• Develop new feature for Gcash iOS
       • Develop web page registration use in referral feature
-      • Develop Progressive web app features and integrate it on GCash iOS
+      • Develop Progressive web app features and integrate them on GCash iOS
       • Do code review
       • Give technical advice on project designer if is doable or not
-      • Help on other developer on fixing bugs
-      • Develop external payment page that use in Lazada app
+      • Help other developers on fixing bugs
+      • Develop external payment page that uses in Lazada app
       • Do app deployment on different environment
       • Manage code repository
-      • Implement security that use in api request
+      • Implement security that uses in an API request
+      
       `,
       address: "Bonifacio Global City, Taguig, Philippines",
       logo: mynt,
@@ -149,7 +150,7 @@ const mockData = [
       level: "Junior",
       company: "Network Economic Service Venture",
       story: `• Develop company client mobile application
-      • Help on other developer on fixing bugs
+      • Help other developers on fixing bugs
       `,
       address: "San Miguel Ave., Ortigas 1552 Pasig, Philippines",
       logo: nesv,
@@ -183,7 +184,7 @@ const mockData = [
       level: "Junior",
       company: "Smart and Sense Infotech Inc.",
       story:  `• Develop company own mobile application
-      • Help on other developer on fixing bugs
+      • Help other developers on fixing bugs
       • Propose a project
       `,
       address: "Pearl Dr., Ortigas Center, Pasig City, MM, Philippines",
@@ -246,7 +247,7 @@ const mockData = [
       • Develop their client mobile application
       • Manage repository
       • Guide other developer because that time flutter is new
-      • Deploy on test enviroment
+      • Deploy on test environment
       `,
       address: "St Brgy, Dansalan, Mandaluyong City, Philippines",
       logo: magnific,
@@ -317,7 +318,7 @@ const mockData = [
       • Develop their client game
       • Manage repository
       • Deploy their mobile app in appstore and play store
-      • Ingerate ticketing hardware on one of their games
+      • Integrate ticketing hardware on one of their games
       `,
       address: "Sta. Rosa Laguna, Philippines",
       logo: fistbump,
